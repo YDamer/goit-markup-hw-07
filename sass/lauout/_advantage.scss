@@ -1,0 +1,56 @@
+.advant-section {
+    padding: 94px 0;
+}
+
+.advant-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantage {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.advantage-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.advant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advant-list .item {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.advant-list .item:last-child {
+    margin-right: 0;
+}
+
+.advant-image {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: var(--secondary-background-color);
+}
