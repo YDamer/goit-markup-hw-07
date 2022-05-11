@@ -16,11 +16,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <link rel="stylesheet" href="./css/main.css">
   </head>
 
   <body class="page">
+
     <!--Site nav-->
 
     <header class="header">
@@ -64,6 +64,7 @@
     </header>
 
     <main>
+
       <!--Герой-->
       <section class="hero">
         <h1 class="hero__hero-title">
@@ -75,76 +76,78 @@
         </button>
       </section>
 
+    <!-- Modal -->
+
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button class="modal-button" data-modal-close>
-            <svg class="modal-close-icon" width="11" height="11">
+          <button class="modal__modal-button" data-modal-close>
+            <svg class="modal__modal-close-icon" width="11" height="11">
               <use href="./images/sprite.svg#modal-button"></use>
             </svg>
           </button>
 
           <form class="contact-form">
-            <h2 class="contact-form-title">
+            <h2 class="contact-form__contact-form-title">
               Оставьте свои данные, мы вам перезвоним
             </h2>
-            <label class="contact-form-label"
+            <label class="contact-form__contact-form-label"
               >Имя
               <input
-                class="contact-form-input"
+                class="contact-form__contact-form-input"
                 type="text"
                 name="user-name"
                 required
                 minlength="2"
               />
-              <svg class="contact-form-icon">
+              <svg class="contact-form__contact-form-icon">
                 <use href="./images/sprite.svg#icon-person-black"></use>
               </svg>
             </label>
-            <label class="contact-form-label">
+            <label class="contact-form__contact-form-label">
               Телефон
               <input
-                class="contact-form-input"
+                class="contact-form__contact-form-input"
                 type="tel"
                 name="user-phone"
                 required
               />
-              <svg class="contact-form-icon">
+              <svg class="contact-form__contact-form-icon">
                 <use href="./images/sprite.svg#icon-phone-black"></use>
               </svg>
             </label>
-            <label class="contact-form-label"
+            <label class="contact-form__contact-form-label"
               >Почта
               <input
-                class="contact-form-input"
+                class="contact-form__contact-form-input"
                 type="email"
                 name="user-email"
                 required
               />
-              <svg class="contact-form-icon">
+              <svg class="contact-form__contact-form-icon">
                 <use href="./images/sprite.svg#icon-email-black"></use>
               </svg>
             </label>
-            <label class="contact-form-label"
+            <label class="contact-form__contact-form-label"
               >Комментарии
               <textarea
-                class="contact-form-comments"
+                class="contact-form__contact-form-comments"
                 name="user-comments"
                 placeholder="Введите текст"
               ></textarea>
             </label>
 
-            <label class="contact-form-checkbox">
+            <label class="contact-form__contact-form-checkbox">
               <input
-                class="contact-checkbox"
+                class="contact-form__contact-checkbox"
                 type="checkbox"
                 name="agreement"
               />
-              <span class="checkbox-icon"> </span>
+              <span class="contact-form__checkbox-icon"> </span>
               Соглашаюсь с рассылкой и принимаю
-              <a href="" class="agreement-text">Условия договора</a>
+              <a href="" class="contact-form__agreement-text">Условия договора</a>
             </label>
 
-            <button type="submit" class="contact-btn-wrapper">Отправить</button>
+            <button type="submit" class="contact-form__contact-btn-wrapper">Отправить</button>
           </form>
         </div>
       </div>
