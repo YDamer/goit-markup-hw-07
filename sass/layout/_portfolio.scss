@@ -32,7 +32,7 @@
 
 
 .work__button-filter {
-    font-family: inherit;
+    font-family: $main-font-family;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -97,6 +97,7 @@
 }
 
 .work__work-list {
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -133,6 +134,7 @@
 }
 
 .work__overlay-text {
+    font-family: $main-font-family;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;

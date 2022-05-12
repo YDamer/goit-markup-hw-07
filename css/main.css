@@ -70,7 +70,6 @@ img {
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -136,6 +135,7 @@ img {
 }
 
 .contact-form__contact-form-title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -228,6 +228,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -404,6 +405,7 @@ img {
 }
 
 .advantage__title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -413,6 +415,7 @@ img {
 }
 
 .advantage__text {
+  font-family: Roboto, sans-serif;
   color: #757575;
   font-weight: 400;
   font-size: 14px;
@@ -458,6 +461,7 @@ img {
 }
 
 .clients__title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -519,6 +523,7 @@ img {
 }
 
 .direction__title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -618,6 +623,7 @@ img {
 }
 
 .footer__address-text {
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
@@ -724,6 +730,7 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
   color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -739,6 +746,7 @@ img {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 136px;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -793,7 +801,7 @@ img {
 }
 
 .work__button-filter {
-  font-family: inherit;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -857,6 +865,7 @@ img {
 }
 
 .work__work-list {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -893,6 +902,7 @@ img {
 }
 
 .work__overlay-text {
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -912,6 +922,7 @@ img {
 }
 
 .subscribe__title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -986,6 +997,7 @@ img {
 }
 
 .team-name {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -1027,6 +1039,7 @@ img {
 
 .team-item .item-list {
   margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;

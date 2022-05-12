@@ -5,6 +5,7 @@
 }
 
 .team-name {
+    font-family: $main-font-family;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -46,7 +47,7 @@
 
 .team-item .item-list {
     margin-bottom: 10px;
-
+    font-family: $main-font-family;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
