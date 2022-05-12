@@ -34,11 +34,13 @@
 .team-list .item {
     margin-right: 30px;
     height: 420px;
+
+    &.item:last-child {
+            margin-right: 0;
+        }
 }
 
-.team-list .item:last-child {
-    margin-right: 0;
-}
+
 
 .item .team-item {
     background-color: $primari-background-color;
@@ -76,10 +78,12 @@
     margin-right: 10px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+
+    &:last-child {
+            margin-right: 0;
 }
 
-.team-icon-list:last-child {
-    margin-right: 0;
+
 }
 
 .team-icon-link {
@@ -93,12 +97,18 @@
     transition-property: $accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background-color: $accent-color;
+        }
+
+                &:hover .team-icon,
+                &:focus .team-icon {
+                    fill: $primari-background-color;
+                }
 }
 
-.team-icon-link:hover,
-.team-icon-link:focus {
-    background-color: $accent-color;
-}
 
 .team-icon {
     fill: $grey-icon-color;
@@ -108,7 +118,3 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.team-icon-link:hover .team-icon,
-.team-icon-link:focus .team-icon {
-    fill: $primari-background-color;
-}

@@ -70,11 +70,16 @@ img {
 }
 
 .logo {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
   color: #2196f3;
+}
+
+.header__logo {
+  margin-top: 20px;
 }
 
 .logo__logo-black {
@@ -304,6 +309,7 @@ img {
   padding-bottom: 32px;
   color: var(--primary-text-color);
   text-decoration: none;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -355,6 +361,7 @@ img {
 .contact-nav__contact {
   color: #757575;
   text-decoration: none;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -710,6 +717,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding: 24px 0;
+  height: 80px;
 }
 
 .hero {
@@ -806,6 +814,7 @@ img {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
   cursor: pointer;
   border-radius: 4px;
   border-color: transparent;
@@ -1028,7 +1037,7 @@ img {
   height: 420px;
 }
 
-.team-list .item:last-child {
+.team-list .item.item:last-child {
   margin-right: 0;
 }
 
@@ -1099,9 +1108,13 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-link:hover,
-.team-icon-link:focus {
+.team-icon-link:hover, .team-icon-link:focus {
   background-color: #2196f3;
+}
+
+.team-icon-link:hover .team-icon,
+.team-icon-link:focus .team-icon {
+  fill: #ffffff;
 }
 
 .team-icon {
@@ -1112,10 +1125,5 @@ img {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-icon-link:hover .team-icon,
-.team-icon-link:focus .team-icon {
-  fill: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
