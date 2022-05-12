@@ -14,7 +14,7 @@
   margin-top: 0;
   margin-bottom: 30px;
 
-  color: var(--primari-background-color);
+  color: $primari-background-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -33,12 +33,12 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  background-color: var(--accent-color);
-  color: var(--primari-background-color);
+  background-color: $accent-color;
+  color: $primari-background-color;
   font-family: inherit;
   cursor: pointer;
 
-  transition-property: var(--accent-color);
+  transition-property: $accent-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 

@@ -35,7 +35,7 @@
 
   & :hover,
   & :focus {
-    fill: var(--accent-color);
+    fill:$accent-color;
   }
 }
 
@@ -70,7 +70,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus {
-    border-color: var(--accent-color);
+    border-color:$accent-color;
   }
 }
 
@@ -82,7 +82,7 @@
   left: 10px;
 
   &:focus {
-    fill: var(--accent-color);
+    fill:$accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -90,16 +90,16 @@
 
 .contact-form__contact-form-label {
   position: relative;
-  color: var(--secondary-text-color);
+  color:$secondary-background-color;
   font-size: 12px;
 
   &:focus-within {
-    color: var(--accent-color);
+    color:$accent-color;
   }
 }
 
 .contact-form__contact-form-input:focus + .contact-form__contact-form-icon {
-  fill: var(--accent-color);
+  fill:$accent-color;
 }
 
 .contact-form__contact-form-comments {
@@ -117,7 +117,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   .contact-form__contact-form-comments:focus {
-    border-color: var(--accent-color);
+    border-color:$accent-color;
   }
 }
 
@@ -135,11 +135,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   width: 100%;
-  color: var(--secondary-text-color);
+  color:$secondary-background-color;
 }
 
 .contact-form__agreement-text {
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration-line: underline;
 }
 
@@ -153,8 +153,8 @@
 }
 
 .contact-form__contact-checkbox:checked + .contact-form__checkbox-icon {
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
+  border-color:$accent-color;
+  background-color: $accent-color;
   background-image: url('../images/modal-send-icon.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -171,10 +171,10 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   border: none;
-  background-color: var(--accent-color);
-  color: var(--primari-background-color);
+  background-color:$accent-color;
+  color:$primari-background-color;
 
-  transition-property: var(--accent-color);
+  transition-property:$accent-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 

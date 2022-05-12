@@ -11,10 +11,10 @@
 }
 
 .address-link {
-    color: var(--primari-background-color);
+    color: $primari-background-color;
     text-decoration: none;
 
-    transition-property: var(--accent-color);
+    transition-property: $accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -24,7 +24,7 @@
     text-decoration: none;
     font-style: normal;
 
-    transition-property: var(--accent-color);
+    transition-property:$accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -41,12 +41,11 @@
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--accent-color);
-}
+    color: $accent-color;}
 
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .footer-container {
@@ -65,7 +64,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primari-background-color);
+    color: $primari-background-color;
     margin-bottom: 20px;
 }
 
@@ -93,21 +92,21 @@
     justify-content: center;
     border-radius: 50%;
 
-    transition-property: var(--accent-color);
+    transition-property:$accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-link:hover,
 .footer-link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 
 .icon {
-    fill: var(--primari-background-color)
+    fill: $primari-background-color;
 }
 
 .footer-link:hover .icon,
 .footer-link:focus .icon {
-    fill: var(--primari-background-color);
+    fill: $primari-background-color;
 }

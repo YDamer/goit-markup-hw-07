@@ -8,7 +8,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primari-background-color);
+    color: $primari-background-color;
     margin-bottom: 20px;
 }
 
@@ -21,11 +21,11 @@
     border-radius: 4px;
     background-color: transparent;
     outline: none;
-    color: var(--primari-background-color);
+    color: $primari-background-color;
 }
 
 .footer-subscribe-input:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -43,8 +43,8 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
     border: none;
-    background-color: var(--accent-color);
-    color: var(--primari-background-color);
+    background-color: $accent-color;
+    color: $primari-background-color;
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

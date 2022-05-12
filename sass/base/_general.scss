@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: var(--primari-background-color);
-    color: var(--primary-text-color);
+    background-color:$primari-background-color;
+    color: $primary-text-color;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -43,9 +43,9 @@ img {
 }
 
 .logo__logo-black {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .logo-white {
-    color: var(--primari-background-color);
+    color: $primari-background-color;
 }
