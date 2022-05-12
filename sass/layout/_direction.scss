@@ -2,7 +2,7 @@
     padding-bottom: 94px;
 }
 
-.our-direction {
+.direction__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -10,27 +10,31 @@
     margin-bottom: 50px;
 }
 
-.direction-list {
+.direction__list {
     display: flex;
+
+& .direction__item:last-child {
+            margin-right: 0;
+        }
 }
 
-.direction-list .item {
+.direction__list .direction__item {
     margin-right: 30px;
     width: 370px;
 }
 
-.direction-box {
+.direction__box {
     position: relative;
 }
 
-.item-box {
-    position: relative;
+.direction__item-box {
+    position: absolute;
     width: 100%;
     height: 70px;
     bottom: 0;
     left: 0;
-    background:rgba(47, 48, 58, 0.8);
-    color:$primari-background-color;
+    background: rgba(47, 48, 58, 0.8);
+    color: $primari-background-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -41,6 +45,3 @@
 }
 
 
-.direction-list .item:last-child {
-    margin-right: 0;
-}

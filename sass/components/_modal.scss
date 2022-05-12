@@ -33,8 +33,8 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  & :hover,
-  & :focus {
+  &:hover,
+  &:focus {
     fill:$accent-color;
   }
 }
@@ -81,16 +81,16 @@
   top: 35px;
   left: 10px;
 
-  &:focus {
-    fill:$accent-color;
+ 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
   }
-}
+
 
 .contact-form__contact-form-label {
   position: relative;
-  color:$secondary-background-color;
+  color:$secondary-text-color;
   font-size: 12px;
 
   &:focus-within {
@@ -135,7 +135,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   width: 100%;
-  color:$secondary-background-color;
+  color:$secondary-text-color;
 }
 
 .contact-form__agreement-text {
@@ -158,6 +158,11 @@
   background-image: url('../images/modal-send-icon.svg');
   background-size: contain;
   background-repeat: no-repeat;
+
+  &:hover .contact-form__checkbox-icon,
+  &:focus.contact-form__checkbox-icon{
+    fill: $accent-color;
+  }
 }
 
 .contact-form__contact-btn-wrapper {
